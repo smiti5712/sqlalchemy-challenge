@@ -5,7 +5,7 @@ In this exercise , Hawaii's climate data was provided as a reference point and t
 
 ### Precipitation Analysis
 
-* A query to designed to retrieve the last 12 months of precipitation data from the data set provided , which was used for a precipitation plot.
+* A query was designed to retrieve the last 12 months of precipitation data from the data set provided , which was used for a precipitation plot.
 
   ![precipitation](Images/Precipitation_Plot.png)
 
@@ -18,11 +18,11 @@ In this exercise , Hawaii's climate data was provided as a reference point and t
 ### Climate API
 
 * A Flask API was designed to create the routes for :
-      ** Home Page
-      ** Precipitation page that lists the Precipitation recorded for the last 12 months in the data set.
-      ** Stations Information
-      ** Temperature observations for the last 12 months of data for the most active station.
-      ** The minimum ,average and the max temperature for a given start date or start-end range.
+    * Home Page
+    * Precipitation page that lists the Precipitation recorded for the last 12 months in the data set.
+    * Stations Information
+    * Temperature observations for the last 12 months of data for the most active station.
+    * The minimum ,average and the max temperature for a given start date or start-end range.
 
 ### Temperature Analysis I
 
