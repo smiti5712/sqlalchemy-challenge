@@ -180,7 +180,8 @@ def startEnd(startdate, enddate):
     sel = [func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)]
 
     results =  (session.query(*sel)
-                       .filter(func.strftime("%Y-%m-%d", Measurement.date) >= startdate))
+                       .filter(func.strftime("%Y-%m-%d", Measurement.date) >= startdate)\
+                       .filter(func.strftime("%Y-%m-%d", Measurement.date) <= enddate).all())
     session.close()
     results_list = []                          
     for tmin,tavg,tmax  in results:
